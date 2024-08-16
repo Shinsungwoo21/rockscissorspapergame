@@ -23,9 +23,9 @@ const Box = (props) => {
 
   return (
     <div className={boxColorChoice()}>
-      <h1 className='text'>{props.title}</h1>
+      <h1>{props.title}</h1>
       <img className='item-img' src={props.item && props.item.img} />
-      <h2 className='text'>{Result}</h2>
+      <h2>{Result}</h2>
     </div>
   )
 }

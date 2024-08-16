@@ -2,6 +2,7 @@ import './App.css';
 import Box from './components/Box';
 import { useState } from "react";
 
+
 const choice = {
   rock: {
     name: "Rock",
@@ -61,9 +62,12 @@ function App() {
         <Box title="Computer" item={computerSelect} result={result}/>
       </div>  
       <div className='main'>  
-        <button onClick={()=>play("scissors")}>가위</button>
-        <button onClick={()=>play("rock")}>바위</button>
-        <button onClick={()=>play("paper")}>보</button>
+        <img className="hand-img" src="/scissor.png" onClick={()=>play("scissors")}/>
+        <img className="hand-img" src="/rock.png" onClick={()=>play("rock")}/>
+        <img className="hand-img" src="/paper.png" onClick={()=>play("paper")}/>
+      </div>
+      <div>
+        <p className="text">{result}</p>
       </div>
     </div>
     
