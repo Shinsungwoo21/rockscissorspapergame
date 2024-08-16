@@ -1,0 +1,46 @@
+.box{
+  border:10px solid black;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.winbox{
+  border:10px solid green;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  color: green;
+}
+
+.losebox{
+  border:10px solid red;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  color: red;
+}
+
+.item-img{
+  width: 400px;
+  height: 400px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* .text {
+  text-align: center;
+} */
